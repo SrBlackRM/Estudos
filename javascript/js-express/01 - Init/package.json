@@ -1,0 +1,16 @@
+{
+  "name": "04---express",
+  "version": "1.0.0",
+  "description": "O Express é um pacote que melhora o gerenciamento do servidor node, pode ser usado para criação de API e etc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
