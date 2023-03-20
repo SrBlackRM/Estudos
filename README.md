@@ -6,3 +6,6 @@ O intuito desse repositório é para salvar os meus estudos, sobre linguagens de
 
 ### JavaScript
 * Vanilla JS
+* POO (Programação Orientada a Objetos com JS)
+* JS Async Await (Promises)
+* NodeJS
