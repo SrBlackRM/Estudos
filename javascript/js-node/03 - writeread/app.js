@@ -20,4 +20,5 @@ const data = JSON.stringify(pessoas, '', 2);
 write(filePath, data);
 // por ser uma promise, usamos o then na função read para poder exibir os dados
 read(filePath)
-    .then(data => console.log(data));
+    // nesse caso, como estamos transformando do objeto json para objeto javascript, não usamos o metodo stringify e sim o parse
+    .then(data => console.log(JSON.parse(data)));
