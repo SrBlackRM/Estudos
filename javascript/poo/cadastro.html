@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cadastro.css" type="text/css" media="all">
+    <title>Cadastro</title>
+</head>
+<body>
+    <section id="content">
+        <div class="container-form">
+            <form method="post" action="" id="form">
+                <h1> Formulário de cadastro </h1>
+                <ul class="list-required">
+                    <li class="list-required-item">
+                        <h2>Nenhum campo pode estar vazio</h2>
+                    </li>
+                    <li class="list-required-item">
+                        <h2>Usuário só poderá conter letras e/ou números</h2>
+                    </li>
+                    <li class="list-required-item">
+                        <h2>Usuário deverá ter entre 3 e 12 caracteres</h2>
+                    </li>
+                    <li class="list-required-item">
+                        <h2>Senha precisa ter entre 6 e 12 caracteres</h2>
+                    </li>
+                </ul>
+                <div class="form-group">
+                    <label class="input-group">
+                        <span>Nome </span>
+                        <input type="text" class="validate"/>
+                    </label>
+                    <label class="input-group">
+                        <span>Sobrenome </span>
+                        <input type="text" class="validate"/>
+                    </label>
+                    <label class="input-group">
+                        <span>CPF </span>
+                        <input type="text" class="validate"/>
+                    </label>
+                    <label class="input-group">
+                        <span>Usuário </span>
+                        <input type="text" class="validate"/>
+                    </label>
+                    <label class="input-group">
+                        <span>Senha </span>
+                        <input type="password" class="validate"/>
+                    </label>
+                    <label class="input-group">
+                        <span>Repetir senha </span>
+                        <input type="password" class="validate"/>
+                    </label>
+                    <div class="btn-sec">
+                        <button class="btn" type="submit" name="button">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script type="text/javascript" src="./valida-form.js"></script>
+</body>
+</html>
