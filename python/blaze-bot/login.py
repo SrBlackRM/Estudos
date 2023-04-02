@@ -4,8 +4,8 @@ from time import sleep
 
 driver = webdriver.Chrome()
 
-username = 'hatblackrm@gmail.com'
-password = 'Odin2217203222RM'
+username = 'teste'
+password = 'teste'
 url_game_auth = 'https://blaze.com/pt/games/double'
 
 # XPATHS
