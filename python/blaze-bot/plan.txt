@@ -1,0 +1,3 @@
+A ideia é fazer um bot para jogar automaticamente na blaze
+primeiramente o jogo será double, e a estratégia será definida previamente
+futuramente tentar usar IA para reconhecer padrões e aprimorar
